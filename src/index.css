@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+  background-image: url("/src/res/warm.jpg"); 
+  background-size: cover;
+  background-position: bottom;
+  transition: ease-out 0.4;
+  min-width: 100%;
+  min-height: 351px;
+}
+
+.app-cold {
+  background-image: url("/src/res/cold.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: ease-out 0.4;
+  min-width: 100%;
+  min-height: 351px;
+}
+section{
+text-align: center;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#name {
+  font-size: 35px;
+  color: rgb(0 , 0 , 0 , 0.85);
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+#country{
+  font-size: 10px;
+  color: rgb(255 , 255 , 255 , 0.9);
+  margin-bottom: 10px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo{
+  font-size: 20px;
+  color: rgb(0 , 0 , 0 , 0.85);
+}
+img{
+  margin-top: 15px;
+}
+#temp{
+  font-size: 25px;
+  color: rgb(0 , 0 , 0 , 0.85);
+  margin-bottom: 10px;
+}
+#text{
+  font-size: 15px;
+  color: rgb(255 , 255 , 255 , 0.9);
+  letter-spacing: 1px;
+}
+#time{
+  font-size: 20px;
+  width: 120px;
+  color: rgb(255 , 255 , 255 , 0.9);
+}
+.input input{
+  width: 150px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 85%);
+  border: none;
+  height: 18px;
+  border-radius: 1pc;
+  padding: 10px;
+}
+.input button{
+  width: 51px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 85%);
+  border: none;
+  margin: 6px;
+  border-radius: 1pc;
+}
