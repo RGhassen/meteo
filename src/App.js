@@ -4,7 +4,7 @@ function App() {
   const [placeInfo , setPlaceInfo] = useState({})
 
 const handelSearch = () =>{ 
-  fetch(`https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=${place}&aqi=no`)
+  fetch(``http://api.weatherapi.com/v1/current.json?key=7fd3a93adbe9956b1781c24359d23d48&q=${place}&aqi=no`)
   .then((response) => response.json())
   .then((data) => setPlaceInfo({
     name : data.location.name,
